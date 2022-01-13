@@ -36,3 +36,4 @@ internal     v1.0      1dcaf030246c   About an hour ago   1.02GB
 Now run the below commands to explore sample microservices on Web and then able to access from browser using ip and 8080 port. 
 docker run -d -p 8082:8082 -e PORT=8082 internal:v1.0
 docker run -d -e SERVER='http://localhost:8082' --network="host" external:v1.0
+
